@@ -1,5 +1,10 @@
+html, body {
+    min-width: 1024px; /* Set minimum width to match desktop layout */
+    overflow-x: auto;   /* Allow horizontal scrolling */
+}
 body {
-    margin: 0;
+    width:1024px;
+    margin: 0 auto ;
     background-image: url('Images/Bg-Img.jpeg');
     background-size: cover;
     background-position: center;
